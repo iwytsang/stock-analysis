@@ -9,11 +9,11 @@ The purpose of the analysis is to assist Steve with analyzing a entire dataset o
 
 The returns of all stocks worsened between 2017 and 2018 for all stocks except "TERP", which had a return of -7.2% in 2017 and -5.0% in 2018. Total daily volume of stocks traded in 2017 summed to 3,166,639,100 and in 2018 summed to 3,306,038,200.
 
-In 2017, all stocks except "TERP" had positive returns from the starting price to ending price of the stock. 
+In 2017, all stocks except "TERP" had positive returns from the starting price to ending price of the stock for the year. 
 
 ![Stock_Results_2017](https://user-images.githubusercontent.com/108503112/188239681-bd2ddfcb-7901-4ada-808f-6be0d4a6b7dc.png)
 
-In 2018, all stocks except "ENPH" and "RUN" had negative returns from the starting price to ending price of the stock.
+In 2018, all stocks except "ENPH" and "RUN" had negative returns from the starting price to ending price of the stock for the year.
 
 ![Stock_Results_2018](https://user-images.githubusercontent.com/108503112/188239704-908d4cb4-aa71-4a4a-8d90-77efa8d9cf83.png)
 
