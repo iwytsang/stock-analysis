@@ -19,22 +19,24 @@ In 2018, all stocks except "ENPH" and "RUN" had negative returns from the starti
 
 The refactored code ran much quicker than the original code written. As shown in the images below, the refactored code ran in 0.0546875 seconds for 2017 and 2018, compared with the original code which ran in 0.2734375 seconds for 2017 and 2018.
 
-###Refactored Code Run-Times
+### Refactored Code Run-Times
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/108503112/188242281-a2943bec-a9d0-4228-be90-36dcfeb2667b.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/108503112/188242285-87790d9e-f490-4b45-a70c-3d53cabdcff2.png)
 
-###Original Code Run-Times
+### Original Code Run-Times
 
 ![Original_Code_2017](https://user-images.githubusercontent.com/108503112/188242677-da29dd1f-ab16-4d43-8ee2-639053202364.png)
 ![Original_Code_2018](https://user-images.githubusercontent.com/108503112/188242681-0c27dccd-f8d5-4385-be52-5e4b0fc57291.png)
 
 ## Summary
 
-###Advantages and Disadvantages of Refactoring VBA Code in General
+### Advantages and Disadvantages of Refactoring VBA Code in General
 Advantages of refactoring VBA code is that it can run more quickly and efficiently to analyze larger amounts of data in a dataset.
 
 Disadvantages of refactoring VBA code is that while going through the refactoring process, the code can break and have many errors that are difficult and time-consuming to fix. 
 
-###Advantages and Disadvantages of Refactored Stock Analysis
+### Advantages and Disadvantages of Refactored Stock Analysis
+As shown in the "Results" section, the advantage of refactoring the original code was that the refactored code ran in 0.0546875 seconds vs. 0.2734375 seconds. It can save a lot of time, especially when dealing with thousands of different stock tickers, which Steve might eventually do in his analysis.
 
+The disadvantage of refactoring the original code was running into errors such as "Compile error: Can't assign to array" and "Run-time error: Subscript out of range". I had to take a lot of time to run the code and find the break point in order to resolve the error.
