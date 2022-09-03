@@ -29,6 +29,17 @@ The refactored code ran much quicker than the original code written. As shown in
 ![Original_Code_2017](https://user-images.githubusercontent.com/108503112/188242677-da29dd1f-ab16-4d43-8ee2-639053202364.png)
 ![Original_Code_2018](https://user-images.githubusercontent.com/108503112/188242681-0c27dccd-f8d5-4385-be52-5e4b0fc57291.png)
 
+### Refactored Code
+As can be seen from the refactored code, the tickerIndex variable is used to loop through the tickers, tickerVolumes, tickerEndingPrices, and tickerStartingPrices to output the results quicker than the original code.
+
+![Refactored_Code](https://user-images.githubusercontent.com/108503112/188248739-19850232-44a8-412a-94c4-30c40c007f4c.png)
+
+### Original Code
+As can be seen from the original code, it uses a nested loop, which takes more time to go through the dataset.
+
+![Original_Code](https://user-images.githubusercontent.com/108503112/188248742-322fdcb8-6d4b-43b8-bb1f-5eaec41b5892.png)
+
+
 ## Summary
 
 ### Advantages and Disadvantages of Refactoring VBA Code in General
